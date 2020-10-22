@@ -16,7 +16,7 @@ include('pages/not-allowed-page.php');
 include('pages/image-page.php');
 
 if ($file_id == null || !is_file($image_local)) {
-    initNotAllowedPage($title, $favicon, $url, "You don't belong here, do you?");
+    initNotAllowedPage($title, $favicon, $url, $config['deny-message']);
     return;
 }
 

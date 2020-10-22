@@ -1,0 +1,15 @@
+﻿{
+  "Version": "13.1.0",
+  "Name": "Sharex-Image-Uploader",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://DOMAIN_HERE/uploader.php",
+  "Parameters": {
+    "secret": "SECRET_KEY_HERE"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "secret": "SECRET_KEY_HERE"
+  },
+  "FileFormName": "sharex"
+}
